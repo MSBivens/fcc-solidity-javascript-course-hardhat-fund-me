@@ -7,6 +7,8 @@ This code was written for [Lesson 7: Hardhat Fund Me](https://www.youtube.com/wa
 - Hardhat
 - Chainlink
 - Ethers.js
+- Aave
 
 ## The repo showcases:
 
+- Mocks
