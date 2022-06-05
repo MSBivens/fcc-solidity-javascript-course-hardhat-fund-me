@@ -6,6 +6,12 @@ import "./PriceConverter.sol";
 
 error FundMe__NotOwner();
 
+/**
+ * @title A contract for crowd funding
+ * @author Mike Bivens
+ * @notice This contract is to demo a sample funding contract
+ * @dev This implements price feeds as our library
+ */
 contract FundMe {
     // Type Declarations
     using PriceConverter for uint256;
@@ -41,7 +47,10 @@ contract FundMe {
         i_owner = msg.sender;
     }
 
-    /// @notice Funds our contract based on the ETH/USD price
+    /**
+     * @notice Funds our contract based on the ETH/USD price
+     * @dev This implements price feeds as our library
+     */
     function fund() public payable {
         require(
             msg.value.getConversionRate(s_priceFeed) >= MINIMUM_USD,
