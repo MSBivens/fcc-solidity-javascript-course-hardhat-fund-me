@@ -8,7 +8,13 @@ This code was written for [Lesson 7: Hardhat Fund Me](https://www.youtube.com/wa
 - Chainlink
 - Ethers.js
 - Aave
+- Rinkeby
 
 ## The repo showcases:
 
+- Linting
 - Mocks
+- Styling and NatSpec
+- Unit & Stage testing
+- Gas optimization
+- Testing & Debugging
